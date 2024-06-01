@@ -27,4 +27,4 @@ jobs:
       env:
         COMPOSER_BUCKET: 'composer-bucket-name'
       run: |
-        gsutil cp dags/* gs://$COMPOSER_BUCKET/dags/
+        gsutil cp ../airflow_composer/dags/* gs://$COMPOSER_BUCKET/dags/
